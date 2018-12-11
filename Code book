@@ -1,0 +1,88 @@
+This is the code book that decribe the differnets files that are the result of the analysis. 
+
+The first described is the text file that are writte, activitiesMean.
+
+The column are the subject, there is 30 column 
+The line are as follow 
+6 times 66 mesures, 
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+tBodyAccmean()-XYZ
+tBodyAccstd()-XYZ
+tGravityAccmean()-XYZ
+tGravityAccstd()-XYZ
+tBodyAccJerkmean()-XYZ
+tBodyAccJerkstd()-XYZ
+tBodyGyromean()-XYZ
+tBodyGyrostd()-XYZ
+tBodyGyroJerkmean()-XYZ
+tBodyGyroJerkstd()-XYZ
+tBodyAccMagmean()
+tBodyAccMagstd()
+tGravityAccMagmean()
+tGravityAccMagstd()
+tBodyAccJerkMagmean()
+tBodyAccJerkMagstd()
+tBodyGyroMagmean()
+tBodyGyroMagstd()
+tBodyGyroJerkMagmean()
+tBodyGyroJerkMagstd()
+fBodyAccmean()-XYZ
+fBodyAccstd()-XYZ
+fBodyAccJerkmean()-XYZ
+fBodyAccJerkstd()-XYZ
+fBodyGyromean()-XYZ
+fBodyGyrostd()-XYZ
+fBodyAccMagmean()
+fBodyAccMagstd()
+fBodyAccJerkMagmean()
+fBodyAccJerkMagstd()
+fBodyGyroMagmean()
+fBodyGyroMagstd()
+fBodyGyroJerkMagmean()
+fBodyGyroJerkMagstd()
+That are the 66 measures that comes 6 times 
+First set is the mean of this mesure for each subject for the activity walking
+The second set is the mean of this mesure for each subject for the activity walking upstairs
+The third set is the mean of this mesure for each subject for the activity walking downstairs
+The fourth set is the mean of this mesure for each subject for the activity sitting
+The fith set is the mean of this mesure for each subject for the activity standing
+The sixth set is the mean of this mesure for each subject for the activity laying
+
+The other data that are into are created in the script run_analysis is called subMergedData ti is a data frame. The columns are:
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+tBodyAccmean()-XYZ
+tBodyAccstd()-XYZ
+tGravityAccmean()-XYZ
+tGravityAccstd()-XYZ
+tBodyAccJerkmean()-XYZ
+tBodyAccJerkstd()-XYZ
+tBodyGyromean()-XYZ
+tBodyGyrostd()-XYZ
+tBodyGyroJerkmean()-XYZ
+tBodyGyroJerkstd()-XYZ
+tBodyAccMagmean()
+tBodyAccMagstd()
+tGravityAccMagmean()
+tGravityAccMagstd()
+tBodyAccJerkMagmean()
+tBodyAccJerkMagstd()
+tBodyGyroMagmean()
+tBodyGyroMagstd()
+tBodyGyroJerkMagmean()
+tBodyGyroJerkMagstd()
+fBodyAccmean()-XYZ
+fBodyAccstd()-XYZ
+fBodyAccJerkmean()-XYZ
+fBodyAccJerkstd()-XYZ
+fBodyGyromean()-XYZ
+fBodyGyrostd()-XYZ
+fBodyAccMagmean()
+fBodyAccMagstd()
+fBodyAccJerkMagmean()
+fBodyAccJerkMagstd()
+fBodyGyroMagmean()
+fBodyGyroMagstd()
+fBodyGyroJerkMagmean()
+fBodyGyroJerkMagstd()
+activities: Value: walking, walking upstairs, walking downstairs, sitting, standing, laying
+subject: Value [1:30] nummer of the subject
