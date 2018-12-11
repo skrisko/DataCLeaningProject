@@ -5,6 +5,7 @@ The first described is the text file that are writte, activitiesMean.
 The column are the subject, there is 30 column 
 The line are as follow 
 6 times 66 mesures, 
+- Features are normalized and bounded within [-1,1]
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 tBodyAccmean()-XYZ
 tBodyAccstd()-XYZ
@@ -50,6 +51,7 @@ The sixth set is the mean of this mesure for each subject for the activity layin
 
 The other data that are into are created in the script run_analysis is called subMergedData ti is a data frame. The columns are:
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+- Features are normalized and bounded within [-1,1]
 tBodyAccmean()-XYZ
 tBodyAccstd()-XYZ
 tGravityAccmean()-XYZ
